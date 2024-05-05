@@ -1,0 +1,34 @@
+/* Styles for post page */
+.post-title {
+    text-align: center;
+}
+
+.post-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.post-text {
+    margin-top: 20px;
+}
+
+.like-section {
+    margin-top: 20px;
+}
+
+.comment-section {
+    margin-top: 20px;
+}
+
+.all-comments {
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    padding: 10px;
+}
+
+.comment {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+}

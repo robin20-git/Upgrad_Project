@@ -1,0 +1,35 @@
+/* CSS for postslist page */
+.post-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.post {
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+.author {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.post-content {
+    margin-top: 10px;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title p {
+    font-weight: bold;
+}
+
+.delete-icon, .ellipsis-icon {
+    cursor: pointer;
+    color: #777;
+}
