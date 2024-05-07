@@ -16,26 +16,44 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #fff;
+    background-color: No;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
 .logo {
-    font-size: 24px;
+    font-size: 34px;
+    color: Blue;
+    font-family: "Montez", cursive;
+
 }
 
 .subheading {
     font-size: 16px;
-    color: #888;
+    color: Black;
+    text-align: left; /* Align the text to the left */
+    margin-top: 0; /* Remove any default margin */
+    margin-bottom: 0;
+
 }
 
-.signup-btn,
-.signin-btn,
+.signup-btn{
+color:White;
+background-color: Blue;
+    padding: 10px 20px;
+
+}
+
+.signin-btn{
+color:White;
+background-color: Blue;
+    padding: 10px 20px;
+
+}
 .all-posts-btn,
 .create-post-btn {
-    background-color: #007bff;
-    color: #fff;
-    border: none;
+    background-color: Yellow;
+    color: Black;
+    border: 5x;
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
@@ -133,7 +151,7 @@ header {
 }
 
 body {
-    background-image: url('C:/Users/win11/Desktop/project/images/background.jpg');
+    background: url('../images/background.jpg');
    background-size: cover; /* Cover the entire background */
     background-position: center; /* Center the background image */
     background-repeat: no-repeat; /* Prevent repeating the background */
